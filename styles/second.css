@@ -73,3 +73,11 @@ color:black;
 .alaign{
     text-align: center;
 }
+.sidebar{
+   margin-top: 200px;
+}
+.sidebar-item{
+     display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
