@@ -1,0 +1,75 @@
+*{
+    background-color:aliceblue ;
+
+}
+
+.main{
+    display: flex; 
+    justify-content: space-between;
+       align-items: center;
+    list-style: none;
+}
+
+.nav-list{
+      display: flex;
+    text-decoration: none;
+       align-items: center;
+    list-style: none;
+    gap: 40px;
+
+}
+.span{
+    color: chocolate;
+}
+.banner-title{
+    font-size: 65px;
+    font: noto serif;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner-container{
+    text-align: left;
+}
+.banner-subtitle{
+    color: rgba(0, 0, 0, 0.5);
+font-size: 22px;
+
+}
+.card-title{
+font-size: 50px;
+text-align: center;
+color:rgb(233, 90, 8)
+rgb(0, 0, 0) ;
+}
+.card-subtitle{
+    font-size: 22px;
+    text-align: center;
+color:black;
+
+}
+.card-container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap: 110px;
+     margin-top: 70px; 
+}
+.flower{
+    border:2px dotted rgb(179, 224, 245);
+    /* position: static; */
+    width: 270px;
+    height: 320px;
+    margin: 30px;
+}
+.btn{
+    background-color: chocolate;
+    color: aliceblue;
+    /* position: static; */
+    width: 270px;
+    height: 50px;
+}
+.alaign{
+    text-align: center;
+}
