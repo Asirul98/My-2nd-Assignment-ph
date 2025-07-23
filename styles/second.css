@@ -55,6 +55,7 @@ color:black;
     grid-template-columns:repeat(4,1fr) ;
     gap: 110px;
      margin-top: 70px; 
+     margin-bottom: 200px;
 }
 .flower{
     border:2px dotted rgb(179, 224, 245);
@@ -73,11 +74,35 @@ color:black;
 .alaign{
     text-align: center;
 }
-.sidebar{
-   margin-top: 200px;
-}
-.sidebar-item{
-     display: flex;
+    .trust-badge{
+    align-items: center;
     justify-content: space-between;
+}
+.badge{
+    align-items: center;
+    width: 286px;
+    height: 286px;
+}
+
+.sidebar{
+   margin-top:0px;
+   margin-bottom: 100px;
+   display: flex;
+    justify-content:space-between;
     text-align: center;
+}
+.side-title{
+    font-size:50px;
+    text-align: left;
+
+}  
+.side-text{
+    font-size: 28px;
+    text-align: left;
+}
+footer{
+      background-image: url(assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size:auto;
 }
